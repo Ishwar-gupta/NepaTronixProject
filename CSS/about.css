@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    color: darkred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.16);
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.a:hover{
+    color: blue;
+}
+ul li .a:hover{
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    /* transition: .9s ease-in-out; */
+    /* color: yellow; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.a{
+    color: #333;
+    text-transform: uppercase;
+}
+select{
+    border: none;
+    padding: 10px;
+}
+.keyboard{
+    background-image: url("../images/nepakeyboard.jpg");
+    height: 80vh;
+    width: 210.4vh;
+    opacity: 0.9;
+    background-position: top;
+    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding-top: 100vh; */
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#cntr,.t2{
+    text-align: center;
+}
+#cntr{
+    color: rgb(252, 3, 3);
+}
+h1{
+    color: #333;
+    font-size: 70px;
+    color: transparent;
+    font-family: sans-serif;
+    font-weight: 800;
+    line height: 84;
+    -webkit-text-stroke: 4px red;
+    text-shadow: rgba(51, 230, 255, 0.24) 0px 11px 1px;
+}
+#para{
+    text-align: justify;
+    margin: 20px 100px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-size: large;
+}
+.circle{
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.one{
+    height: 150px;
+    width: 150px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: #FFFFFFA6;
+    padding-top: 38px;
+}
+
+.d1,.d2,.d3,.d4,.d5,.d6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d1,.d3,.d5{
+    color: darkred;
+    font-size:xx-large ;
+}
+.d2,.d4,.d6{
+    font-size: larger;
+    color: #143269;
+}
+#flyt{
+    color: black;
+}
+.iicon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-size: xx-large;
+    padding-top: 7px;
+    background-color: #3B82F6;
+}
+
+.footerbar {
+    color: #FFFFFF;
+}
+.Icons{
+    overflow: hidden;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #1f2937;
+}
+.footerr{
+    background-color: #1f2937;
+    padding-top: 20px;
+   font-size: 14px;
+   color: #FFFFFF;
+   font-weight:600;
+   font-family:  "Nunito sans" sans-serif;
+    padding-bottom: 50px;
+}
+.contactfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    font-size: larger;
+    padding: 22px 2px;
+    background-color: #3B82F6;
+}
+.lastfooter{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+#nepa{
+    color: #EF4444;
+    font-size: large;
+}
+#tronix{
+    color: #3B82F6;
+}
+.fter{
+    color: white;
+    font-size: large;
+}
